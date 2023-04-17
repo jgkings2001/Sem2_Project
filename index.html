@@ -27,7 +27,7 @@
         <!-- Nav -->
         <div class="container-fluid">
 
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><img src="images/logo-v3.svg" alt="Logo" width="50" height="50" class="d-inline-block align-text-center text-small">QwikTools</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -40,7 +40,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Browse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Find Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sale</a>
                     </li>
                 </ul>
             </div>
@@ -53,14 +59,29 @@
 
         <!-- Header -->
         <header class="row">
-            <div class="col-12 col-md-6 col-lg-9">
-                <img class="img-fluid" src="https://picsum.photos/1280/500" alt="lorem pixum image" />
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <p class="pt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus enim lacus, vel tincidunt tellus
-                    volutpat
-                    quis. Proin sagittis tellus at ullamcorper imperdiet.
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://picsum.photos/1280/500" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://picsum.photos/1280/500" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://picsum.photos/1280/500" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              
+                <p class="pt-3 $font-family-base">
+                    Purchase Fantastic, Top Quality Tools With QwikTools
                 </p>
             </div>
         </header>
