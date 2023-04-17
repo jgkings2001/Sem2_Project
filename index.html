@@ -1,117 +1,103 @@
-<!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<!doctype html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>QwikTools</title>
 
+    <!-- Bootstrap core CSS from a CDN, you will need to be online for this to work -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 
-  <!-- TITLE GOES HERE -->
-
-  <title></title>
-
-
+    <style>
+        body {
+            padding: 5rem 0 7rem 0;
+        }
+    </style>
 
 </head>
 
 <body>
 
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
+        <!-- Nav -->
+        <div class="container-fluid">
 
-  <!-- this begins the header code -->
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <header>
-
-    <!-- I forgot to have you put the header in, so you get this on on me -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-
-          Graphic and Web Design Studio
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Features</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Pricing
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
+
     </nav>
-  </header>
 
-  <!-- this ends the header code -->
+    <!-- Main -->
+    <main class="container">
 
+        <!-- Header -->
+        <header class="row">
+            <div class="col-12 col-md-6 col-lg-9">
+                <img class="img-fluid" src="https://picsum.photos/1280/500" alt="lorem pixum image" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <p class="pt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus enim lacus, vel tincidunt tellus
+                    volutpat
+                    quis. Proin sagittis tellus at ullamcorper imperdiet.
+                </p>
+            </div>
+        </header>
 
-  <!-- this begins the main code -->
+        <!-- Boxes section -->
+        <section class="row">
+            <div class="col-6 col-md-4 col-lg-3">
+                <h3>Box 1</h3>
+                <img class="img-fluid" src="https://picsum.photos/300/300?random=1" alt="lorem pixum image" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <h3>Box 2</h3>
+                <img class="img-fluid" src="https://picsum.photos/300/300?random=2" alt="lorem pixum image" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <h3>Box 3</h3>
+                <img class="img-fluid" src="https://picsum.photos/300/300?random=3" alt="lorem pixum image" />
+            </div>
+            <div class="col-6 d-md-none d-lg-block col-lg-3 ">
+                <h3>Box 4</h3>
+                <img class="img-fluid" src="https://picsum.photos/300/300?random=4" alt="lorem pixum image" />
+            </div>
+        </section>
 
-  <main>
+    </main>
 
+    <!-- Footer -->
+    <footer class="container-fluid bg-light text-center">
+        
+        <div class="fixed-bottom">
+            
+        <p class="pt-4 pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus enim lacus</p>
+        </div>
+    </footer>
 
-
-    <!-- End of row col -->
-
-
-    <!-- begin caption -->
-
-
-
-
-
-    <!-- end caption -->
-
-    <!--some horizontal rules  -->
-
-    <!-- can you find and put some horizontal rules in here? or something else you want to try-->
-
-    <!-- this ends some horizonal rules -->
-
-    <!-- and now the footer -->
-
-    <!-- we were going to do the footer, but I think that needs it's own worksheet. So no footer today. Sorry-mlj -->
-
-
-    <!-- this ends the footer -->
-
-
-
-
-  </main>
-  <!-- this ends the main code -->
-
-
-
-  <script src="js/bootstrap.min.js"></script>
+    <!-- bootstrap js bundle from a CDN, you will need to be online for this to work -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
